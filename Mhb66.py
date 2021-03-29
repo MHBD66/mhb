@@ -36,12 +36,13 @@ def acak(b):
 
 
 logo = ''' 
-███████╗██╗   ██╗ ██████╗██╗  ██╗
-██╔════╝██║   ██║██╔════╝██║ ██╔╝
-█████╗  ██║   ██║██║     █████╔╝ 
-██╔══╝  ██║   ██║██║     ██╔═██╗ 
-██║     ╚██████╔╝╚██████╗██║  ██╗
-╚═╝      ╚═════╝  ╚═════╝╚═╝  ╚═╝
+  __  __ _    _ ____  
+ |  \/  | |  | |  _ \ 
+ | \  / | |__| | |_) |
+ | |\/| |  __  |  _ < 
+ | |  | | |  | | |_) |
+ |_|  |_|_|  |_|____/ 
+                      
 '''
 idh = []
 
@@ -49,15 +50,15 @@ def logmen():
     os.system('clear')
     print logo
     print ' [1] Login Token'
-    print ' [\x1b[91m0\x1b[0m] Gajadi Pake'
+    print ' [\x1b[91m0\x1b[0m] Exit'
     pilog()
 def pilog():
-    og = raw_input("\nZKI: ")
+    og = raw_input("\nEnter: ")
     if og =="1":
         os.system("clear")
         print logo
         print 
-        print ("Login Pake Token").center(50)
+        print ("Login By Token").center(50)
         print
         print ("[!] Create new account and Download Get Access Token Apk From Playstore")
         print('')
@@ -148,7 +149,7 @@ def cramen():
 	crapil()
 	
 def crapil():
-	select = raw_input("\nZKI: ")
+	select = raw_input("\nENTER: ")
 	id=[]
 	oks=[]
 	cps=[]
@@ -323,7 +324,7 @@ def crapil():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print('')
-	print('[✓] Total CP/\033[1:OK:\033[0;97m  '+str(len(cps))+'/\033[;32m \033[0;97m'+str(len(oks)))
+	print('[✓] Total CP/\033[1;32mOK:\033[0;97m  '+str(len(cps))+'/\033[;32m \033[0;97m'+str(len(oks)))
 	raw_input('Back ')
 	menu()
     
