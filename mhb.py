@@ -43,8 +43,8 @@ logo = '''
            | |  | | |  | | |_) |
            |_|  |_|_|  |_|____/ 
 
-        BbbbBANGLA AMAR AMI BANGLAR
-                      
+          BANGLA AMAR AMI BANGLAR
+              FB/nirjhor66         
 '''
 idh = []
 
