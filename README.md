@@ -6,4 +6,4 @@
 - pip2 install mechanize
 - git clone https://github.com/MHBD66/mhb
 - cd mhb
-- python2 Mhb66.py
+- python2 mhb.py
