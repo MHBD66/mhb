@@ -9,7 +9,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 Mhb66.py')
+    os.system('python2 mhb.py')
 try:
     os.mkdir('FUCK')
 except OSError:
@@ -42,6 +42,7 @@ logo = '''
  | |\/| |  __  |  _ < 
  | |  | | |  | | |_) |
  |_|  |_|_|  |_|____/ 
+Print ('BANGLA AMAR AMI BANGLAR..').center(50)
                       
 '''
 idh = []
